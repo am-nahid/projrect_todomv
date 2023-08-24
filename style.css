@@ -375,7 +375,7 @@ input{
         .span1{
             width: 25%;
             position: absolute;
-            top: 15.5vh;
+            top: 20vh;
 
         }
         .close{
@@ -396,17 +396,32 @@ input{
             right: 40vw;
         }
         .card2{
-            position: absolute;
-            left: -64vw;
+            width: 96vw;
         }
         .newtask{
-            position: absolute;
-            top: 205px;
-            left: 65%;
+            left: 1%;
         }
 
+        .line1 {
+        width: 90vw;
+        display: flex;
+        height: 3rem;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+    }
 
+    .close1 {
+    position: static;
+}
+.lastinput {
+    width: 88%;
+    }
 
+    .span2 {
+    left: 56%;
+    /* top: 10px; */
+}
         }
     
     
