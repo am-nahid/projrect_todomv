@@ -1,7 +1,12 @@
-body{
-    background-color: rgb(239, 238, 238);
-}
 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(239, 238, 238);
+   
+}
 
 .head1{
     background-color: white;
@@ -17,19 +22,19 @@ body{
     color: rgb(73, 205, 242);
 }
 
+
 .add1{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    width: 70%;
     margin-top: 20px;
-    /* width: auto; */
-
 }
 
 a{
     text-decoration: none; 
-    color: black;
 }
+
 .link1{
    
     display: block;
@@ -39,61 +44,58 @@ a{
 .link2{
     font-size: 20px;
     margin-left: 10px;
+    color: black;
 }
-
-/* ul{
-    list-style-type:none;
-    margin-left: 475px;
-    
-}
-
-li{
-    display: inline-block;
-} */
-
-/* .add1{
-    
-    font-family: 'Roboto', sans-serif;
-    display: inline-block;
-    margin-left: 500px;
-} */
 
 .button1{
+    border-radius: 50%;
+    background-color:  #2196f3d4;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+.button2{
       border-radius: 50%;
       background-color:  #2196f3d4;
       border: none;
       color: white;
       font-size: 25px;
+
 }
 
-.button2{
-        border-radius: 50%;
-        background-color:  #2196f3d4;
-        border: none;
-        color: white;
-        font-size: 25px;
-  
-}
-
-.card-grp{
+.card-grp {
     display: flex;
-    flex-flow: row wrap;
-    margin: 0px 320px;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 2rem;
 }
 
-.card{
-    border: white solid;
+.sub-cntnr {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(33.33% - 20px); 
+    box-sizing: border-box;
     background-color: white;
-    width: 260px;
     height: 250px;
-    margin: 10px;
     border-radius: 10px;
-    flex-basis: 285px;
 }
-.card:hover{
-    box-shadow:0px 0px 2px 2px rgb(215, 206, 206);
+
+
+
+.card a {
+    text-decoration: none;
+    color: inherit;
 }
+
 
 .para1{
     color:  rgb(46 184 230);
@@ -302,6 +304,12 @@ input{
     margin-bottom: -22px;
 }
 
+.add-cntnr {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
 .close1{
     display: inline;
     position: relative;
@@ -318,7 +326,14 @@ input{
 
 .next1{
     float: right;
+    padding-right: 10%;
 }
+
+
+.back {
+    padding-left: 10%;
+}
+
 
 
 
@@ -365,17 +380,26 @@ input{
 
         .card1{
             position: absolute;
-            left: -68vw;
+            /* left: -68vw; */
             width: 95vw;
+            margin: 0;
         
         }
         .newcard{
             width: 95vw;
         }
         .span1{
-            width: 25%;
-            position: absolute;
-            top: 20vh;
+              /* width: 25%; */
+    position: absolute;
+    /* bottom: 10px; */
+    top: 19vh;
+    display: inline-block;
+    /* height: 40px; */
+    right: 20px;
+    padding: 0;
+    height: 26px;
+    box-sizing: border-box;
+    padding: 2px 10px;
 
         }
         .close{
@@ -386,6 +410,8 @@ input{
         .card-grp1{
             width: 98vw;
             margin: 0;
+            /* justify-content: center; */
+            align-items: center;
         }
         .link4{
             display: none;
@@ -422,6 +448,10 @@ input{
     left: 56%;
     /* top: 10px; */
 }
+
+.sub-cntnr {
+    justify-content: center;
+    }
         }
     
     
